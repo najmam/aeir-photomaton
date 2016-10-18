@@ -1,0 +1,12 @@
+#!/bin/bash
+function bad_current_working_directory() {
+	echo -n "Error: you're supposed to run this program "
+	echo -n "from the directory that contains the 'src' "
+	echo    "and 'resources' directories."
+	exit 1
+}
+test -d src || bad_current_working_directory 1
+test -d resources || bad_current_working_directory 2
+source ./src/environment.sh
+
+python2 ./src/pack_photos_by_four_into_photosets.py
