@@ -26,11 +26,11 @@ you'll be using during the event
 
 ### Caveats
 
-- not tested when the aspect ratio of the webcam doesn't match that of the screen
+- not tested when the aspect ratio of the webcam doesn't match the screen's
 
 ### References
 
-- `v4l2grab.c` comes from [here](http://www.twam.info/linux/v4l2grab-grabbing-jpegs-from-v4l2-devices)
+- `v4l2grab.c` comes from [here](http://www.twam.info/linux/v4l2grab-grabbing-jpegs-from-v4l2-devices) ([also on github](https://github.com/twam/v4l2grab))
 
 ### Authors
 
